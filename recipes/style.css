@@ -1,4 +1,55 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #cccccc;
+  background-image: url("https://drive.google.com/uc?export=view&id=1R9I2wLk23hdyUk_I-p5MBd-50ZKXBfuB");
+  height: 100%;
+  background-color: #cccccc;
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-attachment: fixed;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+li {
+  padding: 2px;
+}
+
+a {
+  color: white;
+}
+
+li a {
+  font-size: 24px;
+}
+
+#container {
+  text-align: center;
+  margin: 0 auto;
+}
+
 #recipe_img {
   width: 900px;
   height: 550px;
+}
+
+#recipe_list {
+  list-style: none;
+  text-decoration: none;
+}
+
+#image_header {
+  background-color: #cccccc;
+}
+
+#recipe_icon {
+  width: 360px;
+  height: 280px;
+  border-radius: 15px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#recipe_icon:hover {
+  opacity: 0.25;
+  transition: 0.3s;
 }

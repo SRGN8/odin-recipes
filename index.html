@@ -7,25 +7,62 @@
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="pragma" content="no-cache" />
-    <title>Recipes Page</title>
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="./recipes/style.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <h2>Lets make some food!</h2>
-    <ul>
-      <li>
-        <a href="./recipes/buffalo_chicken_dip.html">Buffalo Chicken Dip</a>
-      </li>
-      <li>
-        <a href="./recipes/texas_pulled_pork.html"
-          >Slow Cooker Texas Pulled Pork</a
-        >
-      </li>
-      <li>
-        <a href="./recipes/crispy_chicken_&_rice.html"
-          >One-Pot Crispy Chicken & Rice</a
-        >
-      </li>
-    </ul>
+    <div id="container">
+      <h1>Odin Recipes</h1>
+      <div id="image">
+        <a href="https://www.youtube.com/watch?v=JaZpmHC3LRg" target="_blank">
+          <img
+            src="https://drive.google.com/uc?export=view&id=1uPDAr4Zjp4-gcXs6WSf8nCs8hJIZMo6A"
+            alt="funny botw cooking man"
+          />
+          <!-- <p>click here to see full video of the above gif</p> -->
+        </a>
+      </div>
+      <h2>Lets make some food!</h2>
+      <div>
+        <ul id="recipe_list">
+          <li>
+            <a href="./recipes/buffalo_chicken_dip.html">
+              <div class="img__wrap">
+                <img
+                  id="recipe_icon"
+                  src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2017%2F02%2F03%2F3095600-Buffalo-Chicken-Dip-Photo-by-Mackenzie-Schieck-2000.jpg"
+                  alt="Buffalo Chicken Dip"
+                />
+                <p class="img__description">Buffalo Chicken Dip</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./recipes/texas_pulled_pork.html">
+              <div class="img__wrap">
+                <img
+                  id="recipe_icon"
+                  src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F-0001%2F11%2F30%2F4560053.jpg"
+                  alt="Slow Cooker Texas Pulled Pork"
+                />
+                <p class="img__description">Slow Cooker Texas Pulled Pork</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./recipes/crispy_chicken_&_rice.html">
+              <div class="img__wrap">
+                <img
+                  id="recipe_icon"
+                  src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F12%2F11%2F8800090_one-pot-crispy-chicken-and-rice_allrecipes-2000.jpg"
+                  alt="One-Pot Crispy Chicken & Rice"
+                />
+                <p class="img__description">One-Pot Crispy Chicken & Rice</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
